@@ -14,7 +14,7 @@ A library for use in JMeter test solutions that provides a better random distrib
 - Observe that on each loop iteration, a single Switch Controller (0, 1, 2, or 3) is chosen to execute with each Switch Controller being picked ~25% of the time as configured in the User Defined Variables
 - NOTE: The User Defined Variables value string of "0:25,1:25,2:25,3:25" will result in an array containing 25-0 entries, 25-1 entries, 25-2 entries, 25-3 entries and the array is then shuffled.  An array index is chosen at random on each test iteration to determine which value to use with the Switch Controller.  25 represents number of entries, not a %.
 
-
+![](https://github.com/crglovejoy/jmeter-request-distributor-class-groovy/blob/main/example/switch_action_logs.png)
 
 ### Why it is Better than JMeter's Throughput Controller
 
@@ -24,5 +24,5 @@ A library for use in JMeter test solutions that provides a better random distrib
 - Run the test while observing the logs - NOTE: this test solution DOES NOT send external requests and simply creates JMeter log output
 - Observe that ~25% of the time, ALL of the Throughput Controllers are executed inside a single iteration of the test rather than each iteration running only one of the actions.  ~75% of the iterations result in NO Throughput Controllers executing.
 
-  
+![](https://github.com/crglovejoy/jmeter-request-distributor-class-groovy/blob/main/example/throughput_controller_logs.png)
 
