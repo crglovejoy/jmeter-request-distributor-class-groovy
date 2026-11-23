@@ -52,7 +52,7 @@
           </JSR223Sampler>
           <hashTree/>
         </hashTree>
-        <ThroughputController guiclass="ThroughputControllerGui" testclass="ThroughputController" testname="Throughput Controller 2" enabled="true">
+        <ThroughputController guiclass="ThroughputControllerGui" testclass="ThroughputController" testname="Throughput Controller 2">
           <intProp name="ThroughputController.style">1</intProp>
           <boolProp name="ThroughputController.perThread">true</boolProp>
           <intProp name="ThroughputController.maxThroughput">1</intProp>
@@ -72,7 +72,7 @@
           </JSR223Sampler>
           <hashTree/>
         </hashTree>
-        <ThroughputController guiclass="ThroughputControllerGui" testclass="ThroughputController" testname="Throughput Controller 3" enabled="true">
+        <ThroughputController guiclass="ThroughputControllerGui" testclass="ThroughputController" testname="Throughput Controller 3">
           <intProp name="ThroughputController.style">1</intProp>
           <boolProp name="ThroughputController.perThread">true</boolProp>
           <intProp name="ThroughputController.maxThroughput">1</intProp>
@@ -92,7 +92,7 @@
           </JSR223Sampler>
           <hashTree/>
         </hashTree>
-        <ThroughputController guiclass="ThroughputControllerGui" testclass="ThroughputController" testname="Throughput Controller 4" enabled="true">
+        <ThroughputController guiclass="ThroughputControllerGui" testclass="ThroughputController" testname="Throughput Controller 4">
           <intProp name="ThroughputController.style">1</intProp>
           <boolProp name="ThroughputController.perThread">true</boolProp>
           <intProp name="ThroughputController.maxThroughput">1</intProp>
