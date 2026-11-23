@@ -1,5 +1,4 @@
 # jmeter-request-distributor-class-groovy
-=============================================
 
 A library for use in JMeter test solutions that provides a better random distribution of transactions over time than is possible using JMeter's Throughput Controllers.
 
